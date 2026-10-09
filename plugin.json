@@ -1,15 +1,15 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "hemvarnet",
-  "version": "0.1.0",
-  "description": "Generate",
+  "name": "hemvarnet-pocket-reference",
+  "version": "0.1.1",
+  "description": "Generate a pocket reference for use in the Swedish Hemvärnet.",
   "author": {
     "name": "Stephan Lonntorp"
   },
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Hemvärnet Minneskort",
+        "displayName": "Hemvärnets Minneskort",
         "shortDescription": "Skapa minneskort för Hemvärnstjänst",
         "longDescription": "Skapa minneskort i en enhetlig design och layout i ett behändigt fickformat (A7).",
         "developerName": "Stephan Lonntorp",
