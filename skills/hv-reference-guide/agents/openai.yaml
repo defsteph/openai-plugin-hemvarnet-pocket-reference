@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hemvärnet Reference Guides"
+  short_description: "Matching A7 cards and A4 sheets with cutting borders"
+  default_prompt: "Use $hv-reference-guide to create a Swedish reference guide for PEDARS."

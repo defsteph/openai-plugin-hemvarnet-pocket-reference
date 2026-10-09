@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hemvarnet",
+  "version": "0.1.0",
+  "description": "Generate",
+  "author": {
+    "name": "Stephan Lonntorp"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Hemvärnet Minneskort",
+        "shortDescription": "Skapa minneskort för Hemvärnstjänst",
+        "longDescription": "Skapa minneskort i en enhetlig design och layout i ett behändigt fickformat (A7).",
+        "developerName": "Stephan Lonntorp",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Hjälp mig skapa ett minneskort för PEDARS.",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}
